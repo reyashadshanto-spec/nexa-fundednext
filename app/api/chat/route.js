@@ -45,7 +45,7 @@ export async function POST(req) {
       body: JSON.stringify({
         system_instruction: { parts: [{ text: SYSTEM_PROMPT }] },
         contents,
-        generationConfig: { maxOutputTokens: 1000 },
+        generationConfig: { maxOutputTokens: 4000 },
       }),
     });
 
