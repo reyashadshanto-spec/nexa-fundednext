@@ -5,7 +5,7 @@ export const runtime = "nodejs";
 
 // Free-tier Google Gemini model. You can change this to another Flash model
 // (e.g. "gemini-2.5-flash-lite") if you want.
-const MODEL = "gemini-2.5-flash";
+const MODEL = "gemini-3.5-flash";
 
 export async function POST(req) {
   try {
